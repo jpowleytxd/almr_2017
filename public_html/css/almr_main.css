@@ -1,0 +1,760 @@
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* -----------------ALMR Christmas----------------- */
+/* -----------------Main Stylesheet---------------- */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+/* ------------------------------------------------ */
+/* ------------------Minimal Reset----------------- */
+/* ------------------------------------------------ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------------------ */
+/* ----------------General Styling----------------- */
+/* ------------------------------------------------ */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.cleafix{
+    clear: both !important;
+}
+
+/* ------------------------------------------------ */
+/* ---------------Component Styling---------------- */
+/* ------------------------------------------------ */
+.container{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+/* ------------------------------------------------ */
+/* ----------------Homepage Styling---------------- */
+/* ------------------------------------------------ */
+.home_container{
+    min-height: 100vh;
+    background-image: url('../media/background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.homepage_logo{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding-top: 30px;
+}
+
+.homepage_logo a{
+    width: 80%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepage_logo a img{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.hero_statement{
+    width: 100%;
+    height: 80px;
+    display: block;
+    position: relative;
+}
+
+.hero_statement a{
+    width: 80%;
+    max-width: 260px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(50, 50, 50);
+}
+
+.sponsors_outer{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.sponsors_outer img{
+    width: 100%;
+    min-height: 200px;
+    display: block;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ------------------------------------------------ */
+/* -----------------Header Styling----------------- */
+/* ------------------------------------------------ */
+header{
+    width: 100%;
+    max-width: inherit;
+    height: 65px;
+    z-index: 80;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header_bar{
+    width: 100%;
+    height: 65px;
+    display: block;
+    position: relative;
+    background: transparent;
+}
+
+.header_logo{
+    height: 100px;
+    z-index: 90;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.static_logo{
+    height: 95px;
+    display: block;
+    position: relative;
+    margin-top: 5px;
+    transition: all 0.1s ease-in;
+}
+
+
+/* ------------------------------------------------ */
+/* -----------------Tables Styling----------------- */
+/* ------------------------------------------------ */
+.tables_container{
+    padding-top: 120px;
+    padding-bottom: 200px;
+    min-height: 100vh;
+    background-image: url('../media/background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+    background-color: #000000;
+    background-attachment: fixed;
+}
+
+.sparkles_outer{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.sparkle{
+    float: left;
+}
+
+.sparkle_row.odd{
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sparkle_row.even {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sparkle_inner{
+    color: #413C61;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    background-image: url('../media/yellow_blur.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.table-data{
+    display: none;
+}
+
+/*--------------------Max Width 374px---------------------*/
+@media screen and (max-width: 374px){
+    .sparkle{
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .sparkle_row.odd{
+        width: calc(210px + 18px);
+    }
+
+    .sparkle_row.even {
+        width: calc(280px + 24px);
+    }
+
+    .sparkle_inner{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+}
+
+/*------------Max Width 413px Min Width 375px-------------*/
+@media screen and (max-width: 413px) and (min-width: 375px){
+    .sparkle{
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .sparkle_row.odd{
+        width: calc(252px + 18px);
+    }
+
+    .sparkle_row.even {
+        width: calc(336px + 24px);
+    }
+
+    .sparkle_inner{
+        width: 84px;
+        height: 84px;
+        line-height: 84px;
+    }
+}
+
+/*--------------------Min Width 414px---------------------*/
+@media screen and (min-width: 414px){
+    .sparkle{
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .sparkle_row.odd{
+        width: calc(252px + 24px);
+    }
+
+    .sparkle_row.even {
+        width: calc(336px + 32px);
+    }
+
+    .sparkle_inner{
+        width: 84px;
+        height: 84px;
+        line-height: 84px;
+    }
+}
+
+/*--------------Table Information Overlay-----------------*/
+.table_overlay{
+    width: 100%;
+    height: 100vh;
+    z-index: 85;
+    display: block;
+    position: fixed;
+    top: 100vh;
+    left: 0;
+    /* background: rgba(0, 0, 0, 0.8); */
+    background: -moz-linear-gradient(90deg, rgba(19, 11, 64, 1) 10%, rgba(0, 0, 0, 0) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(19, 11, 64, 1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(90deg, rgba(19, 11, 64, 1) 10%, rgba(0, 0, 0, 0) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(90deg, rgba(19, 11, 64, 1) 10%, rgba(0, 0, 0, 0) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(90deg, rgba(19, 11, 64, 1) 10%, rgba(0, 0, 0, 0) 100%); /* ie10+ */
+    background: linear-gradient(0deg, rgba(19, 11, 64, 1) 10%, rgba(0, 0, 0, 0) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* ie6-9 */
+}
+
+.tables_author_container{
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.table_outer{
+    width: calc(100% - 40px);
+    display: block;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.close_table{
+    width: 30px;
+    height: 30px;
+    z-index: 87;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table_sparkle{
+    width: 80px;
+    height: 80px;
+    z-index: 87;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 80px;
+    background-image: url('../media/snowflake.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.table_inner{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.overlay_table{
+    width: 100%;
+    display: block;
+    position: relative;
+    border-collapse: collapse;
+    border: none;
+}
+
+.overlay_table thead{
+    width: 100%;
+    display: block;
+    background: rgba(19, 11, 64, 0.6);
+}
+
+.overlay_table thead{
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.overlay_table thead th{
+    width: 50%;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    color: #ebca59;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: left;
+    border: none;
+}
+
+.overlay_table tbody{
+    width: 100%;
+    height: 325px; /*iPhone 5*/
+    display: block;
+    overflow: auto;
+}
+
+.overlay_table tbody tr{
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.overlay_table tbody tr:nth-of-type(2n + 0){
+    background: rgba(20, 11, 66, 0.6);
+}
+
+.overlay_table tbody tr:nth-of-type(2n - 1){
+    background: rgba(34, 21, 85, 0.6);
+}
+
+.overlay_table tbody tr td{
+    width: 50%;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 130%;
+    border: none;
+}
+
+.overlay_table td::-webkit-scrollbar, .overlay_table th::-webkit-scrollbar, .overlay_table tbody::-webkit-scrollbar{
+    display: none;
+}
+
+/*--------------------Max Width 374px---------------------*/
+@media screen and (max-width: 374px){
+    /*iPhone 5*/
+    .overlay_table tbody{
+        height: 320px;
+    }
+}
+
+/*------------Max Width 413px Min Width 375px-------------*/
+@media screen and (max-width: 413px) and (min-width: 375px){
+    /*iPhone 6*/
+    .overlay_table thead th{
+        font-size: 0.9rem;
+    }
+
+    .overlay_table tbody tr td{
+        font-size: 0.9rem;
+    }
+}
+
+/*--------------------Min Width 414px---------------------*/
+@media screen and (min-width: 414px){
+    /*iPhone 6 Plus*/
+    .close_table{
+        width: 40px;
+    }
+
+    .overlay_table thead th{
+        font-size: 1rem;
+    }
+
+    .overlay_table tbody tr td{
+        font-size: 1rem;
+    }
+}
+
+/*--------------------Max Height 568px---------------------*/
+@media screen and (max-height: 533px){
+    /*Nokia Lumia 520*/
+    .overlay_table tbody{
+        height: 290px;
+    }
+}
+
+/*------------Max Height 568px Min Height 568px-------------*/
+@media screen and (max-height: 568px) and (min-height: 534px){
+    /*iPhone 5*/
+    .overlay_table tbody{
+        height: 320px;
+    }
+}
+
+/*------------Max Height 667px Min Height 568px-------------*/
+@media screen and (max-height: 667px) and (min-height: 569px){
+    /*iPhone 6*/
+    .overlay_table tbody{
+        height: 400px;
+    }
+}
+
+/*--------------------Min Height 569px---------------------*/
+@media screen and (min-height: 668px){
+    /*iPhone 6 Plus*/
+    .close_table{
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .overlay_table tbody{
+        height: 475px;
+    }
+}
+
+/* ------------------------------------------------ */
+/* -----------------Footer Styling----------------- */
+/* ------------------------------------------------ */
+.attendees_container{
+    padding-top: 120px;
+    min-height: 100vh;
+    background-image: url('../media/background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+    background-color: #000000;
+    background-attachment: fixed;
+}
+.attendees_inner{
+    width: calc(100% - 40px);
+    height: 62vh;
+    display: block;
+    position: relative;
+    /* margin-top: 50px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    transition: 0.2s all ease-in;
+}
+
+.search_container{
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: relative;
+    background: rgba(19, 11, 64, 0.6);
+}
+
+input[type="text"]{
+    width: 80%;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+.attendees_inner table{
+    width: 100%;
+    display: block;
+    position: relative;
+    border-collapse: collapse;
+    border: none;
+}
+
+.attendees_inner table thead{
+    width: 100%;
+    display: block;
+    background: rgba(19, 11, 64, 0.6);
+    table-layout: fixed;
+}
+
+.attendees_inner table thead th{
+    width: calc(100% / 3);
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    color: #ebca59;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: left;
+    border: none;
+}
+
+.attendees_inner table thead th:nth-of-type(3n - 2){
+    width: 30%;
+}
+
+.attendees_inner table thead th:nth-of-type(3n - 1){
+    width: 35%;
+}
+
+.attendees_inner table thead th:nth-of-type(3n - 0){
+    width: 35%;
+}
+
+.attendees_inner table tbody{
+    width: 100%;
+    height: 75vh;
+    display: block;
+    overflow: auto;
+}
+
+.attendees_inner table tbody tr{
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.attendees_inner table tbody tr:nth-of-type(2n + 0){
+    background: rgba(20, 11, 66, 0.6);
+}
+
+.attendees_inner table tbody tr:nth-of-type(2n - 1){
+    background: rgba(34, 21, 85, 0.6);
+}
+
+.attendees_inner table tbody tr td{
+    width: calc(100% / 3);
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 130%;
+    border: none;
+}
+
+.attendees_inner table tbody tr td:nth-of-type(3n - 2){
+    width: 30%;
+}
+
+.attendees_inner table tbody tr td:nth-of-type(3n - 1){
+    width: 35%;
+}
+
+.attendees_inner table tbody tr td:nth-of-type(3n - 0){
+    width: 35%;
+}
+
+.attendees_inner table td::-webkit-scrollbar, .attendees_inner table th::-webkit-scrollbar, .attendees_inner table tbody::-webkit-scrollbar{
+    display: none;
+}
+
+/*--------------------Max Width 374px---------------------*/
+@media screen and (max-width: 374px){
+    /*iPhone 5*/
+}
+
+/*------------Max Width 413px Min Width 375px-------------*/
+@media screen and (max-width: 413px) and (min-width: 375px){
+    /*iPhone 6*/
+    .attendees_inner table thead th{
+        font-size: 0.9rem;
+    }
+
+    .attendees_inner table tbody tr td{
+        font-size: 0.9rem;
+    }
+}
+
+/*--------------------Min Width 414px---------------------*/
+@media screen and (min-width: 414px){
+    /*iPhone 6 Plus*/
+    .attendees_inner table thead th{
+        font-size: 1rem;
+    }
+
+    .attendees_inner table tbody tr td{
+        font-size: 1rem;
+    }
+}
+
+/*--------------------Max Height 568px---------------------*/
+@media screen and (max-height: 533px){
+    /*Nokia Lumia 520*/
+    .attendees_inner{
+        height: 60vh;
+    }
+}
+
+/*------------Max Height 568px Min Height 568px-------------*/
+@media screen and (max-height: 568px) and (min-height: 534px){
+    /*iPhone 5*/
+    .attendees_inner{
+        height: 62vh;
+    }
+}
+
+/*------------Max Height 667px Min Height 568px-------------*/
+@media screen and (max-height: 667px) and (min-height: 569px){
+    /*iPhone 6*/
+    .attendees_inner{
+        height: 66vh;
+    }
+}
+
+/*--------------------Min Height 569px---------------------*/
+@media screen and (min-height: 668px){
+    /*iPhone 6 Plus*/
+    .attendees_inner{
+        height: 68vh;
+    }
+}
+
+/* ------------------------------------------------ */
+/* -----------------Footer Styling----------------- */
+/* ------------------------------------------------ */
+footer{
+    width: 100%;
+    z-index: 50;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.footer_button{
+    width: calc(50% - 3px);
+    height: 76px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-size: 100% 76px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer_button#attendees_outer{
+    margin-left: 2px;
+    margin-right: 1px;
+    background-image: url('../media/button_left.png');
+}
+
+.footer_button#tables_outer{
+    margin-left: 1px;
+    margin-right: 2px;
+    background-image: url('../media/button_right.png');
+}
+
+.footer_button a{
+    width: 100%;
+    height: 76px;
+    display: block;
+    position: relative;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 76px;
+}
+
+body#attendees .footer_button#attendees_outer{
+    background-image: url('../media/button_left_hover.png');
+}
+
+body#tables .footer_button#tables_outer{
+    background-image: url('../media/button_right_hover.png');
+}
+
+body#attendees #attendees_outer a{
+    color: #140b42;
+}
+
+body#tables #tables_outer a{
+    color: #140b42;
+}

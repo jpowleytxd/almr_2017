@@ -1,0 +1,277 @@
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* -----------------ALMR Christmas----------------- */
+/* --------------Navigation Stylesheet------------- */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+.navigation_container{
+    width: 100%;
+    max-width: 1024px;
+    z-index: 90;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*-------------------Hamburger Styling--------------------*/
+.hamburger_container{
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#nav-icon{
+    width: 30px;
+    height: 30px;
+    z-index: 100;
+    position: absolute;
+    top: 7.5px;
+    right: 7.5px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+
+#nav-icon span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    background: #413C61;
+}
+
+body#home #nav-icon span{
+    background: #413C61;
+}
+
+body#home #nav-icon.open span{
+    background: #413C61;
+}
+
+#nav-icon.open span{
+    background: #413C61;
+}
+
+#nav-icon span:nth-child(even) {
+    left: 50%;
+    border-radius: 0 9px 9px 0;
+}
+
+#nav-icon span:nth-child(odd) {
+    left: 0px;
+    border-radius: 9px 0 0 9px;
+}
+
+#nav-icon span:nth-child(1), #nav-icon span:nth-child(2) {
+    top: 3px;
+}
+
+#nav-icon span:nth-child(3), #nav-icon span:nth-child(4) {
+    top: 13px;
+}
+
+#nav-icon span:nth-child(5), #nav-icon span:nth-child(6) {
+    top: 23px;
+}
+
+#nav-icon.open span:nth-child(1), #nav-icon.open span:nth-child(6) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#nav-icon.open span:nth-child(2), #nav-icon.open span:nth-child(5) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#nav-icon.open span:nth-child(1) {
+    left: 4px;
+    top: 8px;
+}
+
+#nav-icon.open span:nth-child(2) {
+    left: calc(50% - 4px);
+    top: 8px;
+}
+
+#nav-icon.open span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+}
+
+#nav-icon.open span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+}
+
+#nav-icon.open span:nth-child(5) {
+    left: 4px;
+    top: 17px;
+}
+
+#nav-icon.open span:nth-child(6) {
+    left: calc(50% - 4px);
+    top: 17px;
+}
+
+/*-----------------Menu Overlay Styling-------------------*/
+.menu_overlay{
+    width: 100%;
+    max-width: inherit;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    top: -100vh;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    background-image: url('../media/navigation_background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding-top: 40px;
+}
+
+nav a{
+    width: 100%;
+    height: 40px;
+    display: block;
+    position: relative;
+    color: #413C61;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav a{
+    color: #413C61;
+    text-decoration: none;
+}
+
+.social_container{
+    width: 100%;
+    height: 40px;
+    display: block;
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+}
+
+.social_inner{
+    height: 40px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social_inner a{
+    outline: none;
+    user-select: none;
+}
+
+.nav_social{
+    height: 40px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+
+.nav_social[alt="Twitter"]{
+    margin: 0;
+}
+
+.author_container{
+    width: 100%;
+    height: 40px;
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.author_container a{
+    outline: none;
+    user-select: none;
+}
+
+.author_left{
+    width: 50%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.author_right{
+    width: 50%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.zonal_logo{
+    height: 40px;
+    display: block;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    user-select: none;
+    outline: none;
+}
+
+.liveres_logo{
+    height: 40px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    user-select: none;
+    outline: none;
+}
+
+@media screen and (max-width: 320px) and (max-height: 567px){
+    nav{
+        padding-top: 0px;
+    }
+
+    .social_container{
+        bottom: 100px;
+    }
+}
