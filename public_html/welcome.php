@@ -25,11 +25,11 @@
 <body id="welcome">
 <?php include('partials/_header.php') ?>
 <section class="container welcome_container">
+    <div class="welcome_image">
+        <img src="media/kate_nicholls.png" alt="Kate Nicholls">
+    </div>
     <div class="welcome_inner">
         <div class="welcome_title">Welcome from the CEO</div>
-        <div class="welcome_image">
-            <img src="http://via.placeholder.com/200x200" alt="Kate Nicholls">
-        </div>
         <div class="welcome_text">
             <p>Dear Guests,</p>
             <p>I am delighted to be welcoming you to the 23rd ALMR Christmas Lunch. And what another transformational year it has been, politically, commercially and for your Association too: a coming of age. With our membership now covering 90% of managed pub, bar and branded restaurants, it is the year we can truly claim to have delivered a strong and effective voice for licensed hospitality at the heart of government. The successes we have achieved on your behalf are testament to the power that comes from having one united voice.</p>

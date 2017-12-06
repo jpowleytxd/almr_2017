@@ -25,7 +25,7 @@
 <body id="menu">
 <?php include('partials/_header.php') ?>
 <section class="container menu_container">
-    <img class="menu_image" src="http://via.placeholder.com/600x300" alt="Menu">
+    <img class="menu_image" src="media/almr_menu.png" alt="Menu">
     <div class="menu_inner">
         <div class="menu_title">Menu</div>
         <div class="course">

@@ -526,14 +526,16 @@ header{
 }
 
 .welcome_image{
-    width: 100%;
+    width: 90%;
     display: block;
     position: relative;
-    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .welcome_image img{
-    width: 60%;
+    width: 100%;
     display: block;
     position: relative;
     margin-left: auto;
