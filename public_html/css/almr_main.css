@@ -18,8 +18,11 @@
 /* ----------------General Styling----------------- */
 /* ------------------------------------------------ */
 body{
+    max-width: 800px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .clearfix{
@@ -111,7 +114,7 @@ body{
 /* ------------------------------------------------ */
 header{
     width: 100%;
-    max-width: inherit;
+    max-width: 800px;
     height: 65px;
     z-index: 80;
     display: block;
@@ -1008,11 +1011,12 @@ input[type="text"]{
 /* ------------------------------------------------ */
 footer{
     width: 100%;
+    max-width: 800px;
     z-index: 50;
     display: block;
     position: fixed;
     bottom: 0px;
-    left: 0px;
+    /* left: 0px; */
 }
 
 .footer_button{

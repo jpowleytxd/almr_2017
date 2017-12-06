@@ -6,7 +6,8 @@
 /* ------------------------------------------------ */
 .navigation_container{
     width: 100%;
-    max-width: 1024px;
+    max-width: 800px;
+    /* max-width: 1024px; */
     z-index: 90;
     display: block;
     position: absolute;
