@@ -16,20 +16,20 @@ $sponsors = '[{
     "NAME" : "The London Essence",
     "URL" : "media/logos/the_london_essence.png"
 }, {
-    "NAME" : "Wisehead Productions",
-    "URL" : "media/logos/wisehead_productions.png"
+    "NAME" : "Glenfidditch",
+    "URL" : "media/logos/glenfidditch.png"
 }, {
     "NAME" : "Red Bull",
     "URL" : "media/logos/red_bull.png"
 }, {
     "NAME" : "Disaronno",
-    "URL" : "media/logos/disarrono.png"
+    "URL" : "media/logos/disaronno.png"
 }, {
     "NAME" : "Hi-Spirits",
     "URL" : "media/logos/hi_spirits.png"
 }, {
-    "NAME" : "Diageo",
-    "URL" : "media/logos/diageo.png"
+    "NAME" : "Guinness",
+    "URL" : "media/logos/guinness.png"
 }, {
     "NAME" : "Britvic Soft Drinks",
     "URL" : "media/logos/britvic.png"
@@ -63,9 +63,6 @@ $sponsors = '[{
 }, {
     "NAME" : "Jagermeister",
     "URL" : "media/logos/jagermeister.png"
-}, {
-    "NAME" : "William Grant & Son",
-    "URL" : "media/logos/william_grant.png"
 }]';
 
 $sponsors = json_decode($sponsors, true);
@@ -96,7 +93,7 @@ $sponsors = json_decode($sponsors, true);
             <?php
             foreach($sponsors as $sponsor){
                 echo '<div class="sponsor_tile">';
-                echo '<img src="http://via.placeholder.com/200x200" alt="' . $sponsor['NAME'] . '">';
+                echo '<img src="' . $sponsor['URL'] . '" alt="' . $sponsor['NAME'] . '">';
                 echo '</div>';
             }
             ?>
