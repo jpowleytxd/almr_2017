@@ -21,7 +21,7 @@
         <a href="welcome.php">Welcome</a>
         <a href="programme.php">Programme</a>
         <a href="sponsors.php">Our Sponsors</a>
-        <a href="table_plan.pdf" target="_blank">Table Plan</a>
+        <a href="media/table_plan.pdf" target="_blank">Table Plan</a>
         <a href="menu.php">Food Menu</a>
     </nav>
     <div class="social_container">
