@@ -102,9 +102,12 @@ body{
 
 .sponsors_outer img{
     width: 100%;
+    max-width: 500px;
     min-height: 200px;
     display: block;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     color: #ffffff;
     text-align: center;
 }
