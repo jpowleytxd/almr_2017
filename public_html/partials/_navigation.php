@@ -23,6 +23,7 @@
         <a href="sponsors.php">Our Sponsors</a>
         <a href="media/table_plan.pdf" target="_blank">Table Plan</a>
         <a href="menu.php">Food Menu</a>
+        <a href="drinks.php">Drink Menu</a>
     </nav>
     <div class="social_container">
         <div class="social_inner">
