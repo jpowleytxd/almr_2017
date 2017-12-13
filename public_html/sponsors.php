@@ -74,7 +74,7 @@ $sponsors = json_decode($sponsors, true);
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#7F56C6">
+<meta name="theme-color" content="#413C61">
 <meta charset="UTF-8">
 
 <title>ALMR Christmas</title>
