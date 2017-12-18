@@ -1,14 +1,52 @@
 {
-    "orientation": "portrait",
-    "background_color": "#ac56c6",
-    "name": "ALMR Christmas",
-    "short_name": "ALMR",
-    "display": "standalone",
-    "icons": [
-      {
-        "src": "http://almr.liveres.co.uk/media/app_icon.png",
-        "sizes": "144x144",
-        "type": "image/png"
-      }
-    ]
-  }
+  "name": "ALMR Christmas",
+  "short_name": "ALMR",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ac56c6",
+  "theme_color": "#ac56c6",
+  "description": "The ALMR Christmas Lunch",
+  "icons": [
+    {
+      "src": "http://almr.liveres.co.uk/media/app/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }, 
+    {
+      "src": "http://almr.liveres.co.uk/media/app/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }, 
+    {
+      "src": "http://almr.liveres.co.uk/media/app/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, 
+    {
+      "src": "http://almr.liveres.co.uk/media/app/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, 
+    {
+      "src": "http://almr.liveres.co.uk/media/app/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, 
+    {
+      "src": "http://almr.liveres.co.uk/media/app/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, 
+    {
+      "src": "http://almr.liveres.co.uk/media/app/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }, 
+    {
+      "src": "http://almr.liveres.co.uk/media/app/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+
+  ]
+}

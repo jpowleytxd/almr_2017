@@ -82,7 +82,7 @@ $sponsors = json_decode($sponsors, true);
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/almr_main.css">
 <link rel="stylesheet" type="text/css" href="css/almr_navigation.css">
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="data/manifest.json">
 </head>
 <body id="sponsors">
 <?php include('partials/_header.php') ?>

@@ -20,7 +20,7 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/almr_main.css">
 <link rel="stylesheet" type="text/css" href="css/almr_navigation.css">
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="data/manifest.json">
 </head>
 <body id="programme">
 <?php include('partials/_header.php') ?>
