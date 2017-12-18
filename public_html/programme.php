@@ -28,30 +28,28 @@
     <div class="programme_inner">
         <div class="programme_title">Programme</div>
         <div class="programme_section">
-            <span class="section_time">11.00</span>
+            <span class="section_time">11.30</span>
             <span class="section_activity">Doors and Bars Open</span>
         </div>
         <div class="programme_section">
-            <span class="section_time">12.00</span>
-            <span class="section_activity">Lunch Called</span>
-        </div>
-        <div class="programme_section">
-            <span class="section_time">12.30</span>
+            <span class="section_time">13.00</span>
             <span class="section_highlight">Lunch Served</span>
-            <span class="section_activity">Bars Close</span>
+            <span class="section_activity">Bars Close<br /><span style="font-style: italic;">(Service via app only)</span></span>
         </div>
         <div class="programme_section">
-            <span class="section_time">14.30</span>
-            <span class="section_activity">Awards BII Licensee of the Year 2017</span>
+            <span class="section_time">14.50</span>
+            <span class="section_activity">Drink Service Stopped</span>
         </div>
         <div class="programme_section">
-            <span class="section_time">15.00</span>
-            <span class="section_highlight">Bars Re-Open</span>
-            <span class="section_activity">Networking</span>
+            <span class="section_time">15.05</span>
+            <span class="section_highlight">Kevin Bridges</span>
         </div>
         <div class="programme_section">
-            <span class="section_time">17.00</span>
-            <span class="section_highlight">Venue Closes</span>
+            <span class="section_time">16.00</span>
+            <span class="section_activity">Bars Reopen</span>
+        </div>
+        <div class="programme_section">
+            <span class="section_time">17.30</span>
             <span class="section_activity">Guests Depart</span>
         </div>
     </div>

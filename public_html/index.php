@@ -32,6 +32,9 @@
             <img src="media/logo_large.png">
         </a>
     </div>
+    <div class="homepage_hashtag">
+        <a href="https://twitter.com/hashtag/almr25" target="_blank">#ALMR25</a>
+    </div>
     <div class="hero_statement">
         <a href="https://www.google.com/maps?q=1+old+billingsgate+walk+ec3r+6dx+london&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjQg46YoObXAhVlOMAKHc1EDYwQ_AUICigB">1 old Billingsgate Walk<br /> London EC3R 6DX</a>
     </div>

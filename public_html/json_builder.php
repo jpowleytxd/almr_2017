@@ -20,20 +20,20 @@ while (($data = fgetcsv($csv)) !== FALSE) {
     // Ignore the first row
     if($count == 1){
         // Get data from array
-        $tableNumber = $data[0];
-        $firstName = $data[1];
-        $lastName = $data[2];
-        $company = $data[4];
+        $tableNumber = trim($data[1]);
+        $firstName = trim($data[3]);
+        $lastName = trim($data[4]);
+        $company = trim($data[6]);
         
         // Build string
         $rowJSON = '{"COMPANY":"' . trim($company) . '","TABLE_NUMBER": "' . $tableNumber . '","FIRSTNAME":"' . trim($firstName) . '","SURNAME":"' . $lastName . '"}';
         $fullJSON .= $rowJSON;
     } else if($count > 1){
         // Get data from array
-        $tableNumber = $data[0];
-        $firstName = $data[1];
-        $lastName = $data[2];
-        $company = $data[4];
+        $tableNumber = trim($data[1]);
+        $firstName = trim($data[3]);
+        $lastName = trim($data[4]);
+        $company = trim($data[6]);
         
         // Build string
         $rowJSON = ',{"COMPANY":"' . $company . '","TABLE_NUMBER": "' . $tableNumber . '","FIRSTNAME":"' . trim($firstName) . '","SURNAME":"' . $lastName . '"}';

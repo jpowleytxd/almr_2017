@@ -13,6 +13,7 @@ error_reporting(E_ALL);
 $delegates = file_get_contents('data/guests.json');
 $delegates = json_decode($delegates, true);
 
+
 $tables = array();
 $prevNumber = 1;
 $table = array();
@@ -29,7 +30,6 @@ foreach($delegates['PEOPLE'] as $delegate){
 }
 
 array_push($tables, $table);
-
 ?>
 
 <!DOCTYPE html>
@@ -81,7 +81,6 @@ array_push($tables, $table);
     <?php
         // For All Tables
         foreach($tables as $table){
-            
             echo '<div id="table-number" class="table-' . $table[0]['TABLE_NUMBER'] . '" data-table="' . $table[0]['TABLE_NUMBER'] . '">';
 
             // For All Delegate

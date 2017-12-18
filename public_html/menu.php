@@ -34,19 +34,9 @@
             <span class="dish_description">Oyster emulsion, pickled sea vegetables, miso caramel, heritage radish and a smoked puffed rice granola</span>
         </div>
         <div class="course">
-            <span class="course_title">Vegetarian Starter</span>
-            <span class="dish_name">Artichoke Cr&egrave;me Br&ucirc;l&eacute;e</span>
-            <span class="dish_description">Marinated forest mushrooms, truffle artichoke scraps with sourdough and shimeji mushrooms.</span>
-        </div>
-        <div class="course">
             <span class="course_title">Standard Main Course</span>
             <span class="dish_name">Braised Blade of Beef</span>
             <span class="dish_description">Carrot and swede pur&eacute;e, steamed potato and onion pudding with beer pickled onions and tenderstem broccoli</span>
-        </div>
-        <div class="course">
-            <span class="course_title">Vegetarian Main Course</span>
-            <span class="dish_name">Pumpkin Tortellini</span>
-            <span class="dish_description">Ricotta and a rock chive velout&eacute;, butternut spaghetti, shiitake mushrooms</span>
         </div>
         <div class="course">
             <span class="course_title">Dessert</span>

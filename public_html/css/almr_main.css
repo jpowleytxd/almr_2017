@@ -71,9 +71,30 @@ body{
     position: relative;
 }
 
+.homepage_hashtag{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.homepage_hashtag a{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(50, 50, 50);
+}
+
 .hero_statement{
     width: 100%;
-    height: 80px;
     display: block;
     position: relative;
 }
@@ -82,10 +103,9 @@ body{
     width: 80%;
     max-width: 260px;
     display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-5deg);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     color: #ffffff;
     font-weight: bold;
     text-align: center;
@@ -102,9 +122,8 @@ body{
 }
 
 .sponsors_outer img{
-    width: 100%;
+    width: 80%;
     max-width: 500px;
-    min-height: 200px;
     display: block;
     position: relative;
     margin-left: auto;
@@ -850,9 +869,11 @@ header{
 }
 
 .drink_set{
-    width: 100%;
+    width: 75%;
     display: block;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -887,10 +908,18 @@ header{
     position: relative;
     color: #ffffff;
     font-size: 0.9rem;
+    font-style: italic;
     text-align: center;
     line-height: 150%;
 }
 
+.cocktail{
+    margin-top: 15px;
+}
+
+.cocktail:first-of-type{
+    margin-top: 0px;
+}
 /* ------------------------------------------------ */
 /* -----------------Attendees Styling----------------- */
 /* ------------------------------------------------ */
